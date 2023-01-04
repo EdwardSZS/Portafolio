@@ -2,9 +2,6 @@
  function encrip()
  {
     var text= document.getElementById("input1").value.toLowerCase();
-    //i para mayúsuculas y minúsculas
-    //g para toda la oración
-    //m es para múlitples líneas
     var txtencr=text.replace(/e/igm,"enter");
     var txtencr=txtencr.replace(/o/igm,"ober");
     var txtencr=txtencr.replace(/i/igm,"imes");
@@ -23,9 +20,6 @@
  function desencrip()
  {
     var text= document.getElementById("input1").value.toLowerCase();
-    //i para mayúsuculas y minúsculas
-    //g para toda la oración
-    //m es para múlitples líneas
     var txtencr=text.replace(/enter/igm,"e");
     var txtencr=txtencr.replace(/ober/igm,"o");
     var txtencr=txtencr.replace(/imes/igm,"i");
